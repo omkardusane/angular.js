@@ -9,3 +9,6 @@ assertion expects is defined and matches the type mentioned in the error.
 
 If the type is `undefined`, make sure any newly added controllers/directives/services are properly
 defined and included in the script(s) loaded by your page.
+
+Note: if the controller you are looking for is defined in your code but still you are seeing this error in certain old browsers, 
+this maybe an issue with using an ES15 keyword like 'let', 'const' in definition of the controller.  
